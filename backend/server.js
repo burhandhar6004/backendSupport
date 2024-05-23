@@ -2,7 +2,7 @@ const express = require("express");
 require("dotenv").config();
 const colors = require("colors");
 const connectDB = require("./config/db_config");
-const { errorHandler } = require("./middleware/errorHandler");
+const { errorHandler } = require("./middleWare/errorHandler");
 const cors = require("cors");
 
 const app = express();
